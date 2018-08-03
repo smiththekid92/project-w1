@@ -172,7 +172,7 @@ a:hover{
 .footer {
     clear: both;
     margin: auto; 
-    border: solid  5px black;
+    border-top: solid  5px black;
   }
 
 
@@ -183,6 +183,8 @@ a:hover{
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    border-bottom: solid 5px black;
+    background: #B4995A;
   }
 
   .footer a:visited{
