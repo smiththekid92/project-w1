@@ -71,33 +71,33 @@ a:hover{
 
 /* Portfolio Page */
 
-.photo {
- height: 400px;
- padding-right: 0px;
- border: solid 5px red;
- 
+.sub__heading{
+    color: #D0D3D4;
 }
 
-.main__heading{
-    color: #CACAAA;
-}
-
-.flex__continer__port{
+.flex__continer__portfolio{
     display: flex;
     flex-wrap: wrap; 
-    align-items: column;
     margin: 45px;
 }
 
-.flex__item__port{
-    display: flex;
-    flex-wrap: wrap;
+.flex__item__portfolio{
+    display: inline-flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    border: solid 5px red;
-    max-width: 100%;
-    padding: 0px; 
-    
+    max-width: 40%;   
+    border-left: 100px #33658A solid;
+}
+
+.photo{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: solid 60px #33658A;
+    max-width: 80%;
+
 }
 
 
@@ -183,7 +183,6 @@ a:hover{
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background: #E5D798;
   }
 
   .footer a:visited{
@@ -216,5 +215,10 @@ a:hover{
         vertical-align: middle;
         position: relative;
         align-content: center;
+      }
+
+      .photo {
+          max-width: 90%;
+          height: 200px;
       }
     }   
