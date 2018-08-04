@@ -14,7 +14,7 @@ body {
 
 img{
     height: 200px;
-    max-width: 95%;
+    max-width: 100%;
 }
 
 .page__header{
@@ -78,16 +78,14 @@ a:hover{
 .flex__continer__portfolio{
     display: flex;
     flex-wrap: wrap; 
+    align-items: column;
     margin: 45px;
 }
 
 .flex__item__portfolio{
-    display: inline-flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-    max-width: 40%;   
-    border-left: 100px #33658A solid;
+    max-width: 200px;
+    padding: 15px;    
+    border: 10px #33658A solid;
 }
 
 .photo{
@@ -204,10 +202,54 @@ a:hover{
         max-width: 95%;
     }
 
+    /* Nav */
+
     .nav_button{
         padding-left: 60px;
         padding-right: 60px;
     }
+
+    /* Portfolio */
+
+    .flex__continer__portfolio{
+        display: flex;
+        flex-wrap: wrap; 
+        margin: 45px;
+    }
+
+    .flex__item__portfolio{
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 40%;   
+        border-left: 100px #33658A solid;
+    }
+
+    .flex__item__portfolio{
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 60%;   
+        border-left: 100px #33658A solid;
+    }
+
+    /* Project */
+
+    .flex__container__project{
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: column;
+        margin: 45px;
+    }
+
+    .flex__item__project{
+        max-width: 200px;
+        padding: 15px; 
+     }
+
+    /* Footer */
 
     .footer__block {
         text-align: center;
@@ -219,8 +261,4 @@ a:hover{
         align-content: center;
       }
 
-      .photo {
-          max-width: 90%;
-          height: 200px;
-      }
-    }   
+    }    */
