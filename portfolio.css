@@ -98,8 +98,6 @@ a:hover{
 
 }
 
-
-
 /* Projects Page */
 
 .Project__Title{
@@ -141,6 +139,8 @@ a:hover{
 .resume__bio{
     text-indent: 2em;
     color: #E5D798;
+    text-align: left;
+    text-emphasis: wrap;
 }
 
 .resume__headings {
@@ -164,6 +164,9 @@ a:hover{
 
 .duties__list{
     color: #B4995A;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
 }
 
 /* Footer */
@@ -185,8 +188,12 @@ a:hover{
     background: #B4995A;
   }
 
-  .footer a:visited{
+.footer a:visited{
     color: black;
+}
+
+.footer a:hover{
+    color: #FFFFFFD7;
 }
 
 .icon__social{
@@ -261,4 +268,4 @@ a:hover{
         align-content: center;
       }
 
-    }    */
+    }
